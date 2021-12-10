@@ -1,0 +1,32 @@
+const help = (prefix) => { 
+
+	return `
+━━━━━━━━━━━━━━━━━━━━━
+Script Termux Fbchecker 
+━━━━━━━━━━━━━━━━━━━━━
+apt install git
+
+$ apt install php
+
+$ git clone https://github.com/fdciabdul/fbchecker
+
+$ cd fbchecker
+
+$ php fbcheck.php
+
+Untuk menggunakan script ini masukan perintah berikut:
+
+$ php fbcheck.php target.txt
+
+
+*💎 NOTED:*
+*Use scripts e bots com sabedoria! *
+* Se você usar indevidamente o Script e o proprietário do bot não será responsável! *
+
+voltar ao tipo de lobby ${prefix}tools
+`
+
+}
+
+exports.help = help
+
